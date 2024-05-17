@@ -1,5 +1,5 @@
 ### Hi there 👋
-I am Poole
+I am Poole and a Frontend developer.
 
 <!--
 **poolevya/poolevya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
