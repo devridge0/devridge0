@@ -1,5 +1,27 @@
 <h1 align="center">Hey 👋What's Up?</h1>
 
+### 🧠 About Me
+
+🔗 Focused on decentralized finance, I design and build secure, scalable systems across the blockchain and full-stack landscape.<br />
+💻 My expertise spans Solidity, Rust, TypeScript, and Python, with a strong emphasis on clean architecture and upgradeable smart contracts.<br />
+🪙 I’ve led the development of mUSD, a Bitcoin-backed stablecoin using a CDP model on Mezo, and Surge-Trade, a Radix-based perpetual DEX with AMM liquidity and front-running protection.<br />
+📈 At Neutra Finance, I engineered delta-neutral vaults and smart contracts for automated, yield-generating strategies.<br />
+🧠 I approach protocol design with a systems-level mindset—prioritizing security, modularity, and long-term maintainability.<br />
+✅ My workflow emphasizes test-driven development, automated audits, and CI/CD pipelines to ensure consistent reliability.<br />
+🔒 I believe in building trustless infrastructure where clarity, transparency, and function come before hype.<br />
+⚙️ Every product I deliver focuses on sustainable tokenomics and real utility.<br />
+🚀 I thrive in fast-paced, high-impact environments where engineering drives real-world value.<br />
+🤝 Open-source collaboration and clean code are at the core of my engineering philosophy.<br />
+###
+
+<div align="center">
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
+  <img src="https://img.shields.io/static/v1?message=Slack&logo=slack&label=&color=4A154B&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="slack logo"  />
+  <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="telegram logo"  />
+  <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="whatsapp logo"  />
+</div>
+
 ###
 
 <div align="center">
@@ -80,17 +102,37 @@
 ###
 
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
-  <img src="https://img.shields.io/static/v1?message=Slack&logo=slack&label=&color=4A154B&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="slack logo"  />
-  <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="telegram logo"  />
-  <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="whatsapp logo"  />
-</div>
-
-###
-
-<div align="center">
   <img src="https://github-profile-trophy.vercel.app?username=devridge0&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
-###
+### 🧩 Featured Python Code — Web3 Auto Transfer Script
+
+```python
+from web3 import Web3
+import os
+
+# Connect to Ethereum node
+w3 = Web3(Web3.HTTPProvider(os.getenv("ETH_NODE_URL")))
+assert w3.is_connected(), "Failed to connect"
+
+# Load sender credentials
+PRIVATE_KEY = os.getenv("PRIVATE_KEY")
+SENDER = w3.eth.account.from_key(PRIVATE_KEY).address
+TO = "0xReceiverAddressHere"
+AMOUNT = w3.to_wei(0.01, 'ether')
+
+# Build and send transaction
+nonce = w3.eth.get_transaction_count(SENDER)
+tx = {
+    'to': TO,
+    'value': AMOUNT,
+    'gas': 21000,
+    'gasPrice': w3.to_wei('50', 'gwei'),
+    'nonce': nonce,
+    'chainId': 1
+}
+signed = w3.eth.account.sign_transaction(tx, PRIVATE_KEY)
+tx_hash = w3.eth.send_raw_transaction(signed.rawTransaction)
+
+print("✅ Sent! Tx hash:", tx_hash.hex())
+
