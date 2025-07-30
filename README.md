@@ -2,16 +2,7 @@
 
 ### 🧠 About Me
 
-🔗 Focused on decentralized finance, I design and build secure, scalable systems across the blockchain and full-stack landscape.<br />
-💻 My expertise spans Solidity, Rust, TypeScript, and Python, with a strong emphasis on clean architecture and upgradeable smart contracts.<br />
-🪙 I’ve led the development of mUSD, a Bitcoin-backed stablecoin using a CDP model on Mezo, and Surge-Trade, a Radix-based perpetual DEX with AMM liquidity and front-running protection.<br />
-📈 At Neutra Finance, I engineered delta-neutral vaults and smart contracts for automated, yield-generating strategies.<br />
-🧠 I approach protocol design with a systems-level mindset—prioritizing security, modularity, and long-term maintainability.<br />
-✅ My workflow emphasizes test-driven development, automated audits, and CI/CD pipelines to ensure consistent reliability.<br />
-🔒 I believe in building trustless infrastructure where clarity, transparency, and function come before hype.<br />
-⚙️ Every product I deliver focuses on sustainable tokenomics and real utility.<br />
-🚀 I thrive in fast-paced, high-impact environments where engineering drives real-world value.<br />
-🤝 Open-source collaboration and clean code are at the core of my engineering philosophy.<br />
+I build secure, scalable DeFi systems using Solidity, Rust, TypeScript, and Python, with a focus on upgradeable smart contracts, clean architecture, and long-term maintainability. My work includes leading the development of mUSD, a Bitcoin-backed stablecoin on Mezo, and Surge-Trade, a Radix-based perpetual DEX with AMM liquidity and front-running protection. With a systems-driven approach, I engineer automated, yield-generating strategies, prioritize test-driven development, and design trustless infrastructure rooted in real utility and sustainable tokenomics.
 ###
 
 <div align="center">
@@ -28,6 +19,15 @@
   <img src="https://github-readme-stats.vercel.app/api?username=devridge0&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=devridge0&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
+
+
+###
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app?username=devridge0&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+</div>
+
+###
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="60" alt="amazonwebservices logo"  />
@@ -99,11 +99,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="60" alt="figma logo"  />
 </div>
 
-###
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app?username=devridge0&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
-</div>
 
 ### 🧩 Featured Python Code — Web3 Auto Transfer Script
 
