@@ -3,17 +3,6 @@
 ### 🧠 About Me
 
 I build secure, scalable DeFi systems using Solidity, Rust, TypeScript, and Python, with a focus on upgradeable smart contracts, clean architecture, and long-term maintainability. My work includes leading the development of mUSD, a Bitcoin-backed stablecoin on Mezo, and Surge-Trade, a Radix-based perpetual DEX with AMM liquidity and front-running protection. With a systems-driven approach, I engineer automated, yield-generating strategies, prioritize test-driven development, and design trustless infrastructure rooted in real utility and sustainable tokenomics.
-###
-
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
-  <img src="https://img.shields.io/static/v1?message=Slack&logo=slack&label=&color=4A154B&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="slack logo"  />
-  <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="telegram logo"  />
-  <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="whatsapp logo"  />
-</div>
-
-###
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=devridge0&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
