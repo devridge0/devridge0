@@ -1,6 +1,6 @@
 <h1 align="center">Hey 👋What's Up?</h1>
 
-### 🧠 About Me
+### About Me
 
 I build secure, scalable DeFi systems using Solidity, Rust, TypeScript, and Python, with a focus on upgradeable smart contracts, clean architecture, and long-term maintainability. My work includes leading the development of mUSD, a Bitcoin-backed stablecoin on Mezo, and Surge-Trade, a Radix-based perpetual DEX with AMM liquidity and front-running protection. With a systems-driven approach, I engineer automated, yield-generating strategies, prioritize test-driven development, and design trustless infrastructure rooted in real utility and sustainable tokenomics.
 
@@ -18,7 +18,7 @@ I build secure, scalable DeFi systems using Solidity, Rust, TypeScript, and Pyth
 
 
 
-### 🧩 Featured Python Code — Web3 Auto Transfer Script
+### Web3 Auto Transfer Script
 
 ```python
 from web3 import Web3
