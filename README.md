@@ -50,8 +50,7 @@ tx_hash = w3.eth.send_raw_transaction(signed.rawTransaction)
 
 print("✅ Sent! Tx hash:", tx_hash.hex())
 ```
-<h3>🐟 Fun Fact</h3>
+<h3>🐟 Hobby</h3>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/e705e4ed-4efa-4e77-a77b-e29b2980e957" alt="Monkey_developer">
-</p>
+- Football ⚽
+- Tennis 🎾
