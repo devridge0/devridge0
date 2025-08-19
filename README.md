@@ -4,7 +4,6 @@
 
 I build secure, scalable DeFi systems using Solidity, Rust, TypeScript, and Python, with a focus on upgradeable smart contracts, clean architecture, and long-term maintainability. My work includes leading the development of mUSD, a Bitcoin-backed stablecoin on Mezo, and Surge-Trade, a Radix-based perpetual DEX with AMM liquidity and front-running protection. With a systems-driven approach, I engineer automated, yield-generating strategies, prioritize test-driven development, and design trustless infrastructure rooted in real utility and sustainable tokenomics.
 
-
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=devridge0&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=devridge0&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
